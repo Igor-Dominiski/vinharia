@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+
+}
+:root {
+    --vinho: #4B0E0E;
+    --champanhe: #F3E8D5;
+}
+    
+  body {
+    font-family: 'Georgia', serif;
+    background-color: var(--branco-suave);
+    color: var(--vinho);
+    line-height: 1.6;
+    padding: 0%;
+    background-color: gray;
+  }
+  
+
+    .header {
+      background-color: #4d0e0e; 
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+      padding: 0%;
+    }
+    
+  
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  main {
+    margin-top: 40px;
+  }
+  
+ 
+  
+  footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(black);
+  }
+  .p{
+    display: flex;
+    align-items: center;
+  }
